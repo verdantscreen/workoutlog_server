@@ -1,5 +1,5 @@
 module.exports = function (sequelize, DataTypes) {
-  return sequelize.define("user", {
+  return sequelize.define("log", {
     description: DataTypes.STRING,
     definition: DataTypes.STRING,
     result: DataTypes.STRING,
