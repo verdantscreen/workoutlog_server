@@ -3,6 +3,7 @@ require("dotenv").config();
 let express = require("express");
 let app = express();
 let user = require("./controllers/usercontroller");
+let workoutLog = require("./controllers/logcontroller");
 let sequelize = require("./db");
 
 sequelize.sync();
