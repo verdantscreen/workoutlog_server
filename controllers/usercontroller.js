@@ -18,7 +18,7 @@ router.post("/register", function (req, res) {
       });
       res.json({
         user: user,
-        message: "created",
+        message: "registered",
         sessionToken: token,
       });
     },
@@ -42,7 +42,7 @@ router.post("/login", function (req, res) {
             });
             res.json({
               user: user,
-              message: "created",
+              message: "successfully authenticated",
               sessionToken: token,
             });
           } else {
